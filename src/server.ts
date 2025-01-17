@@ -13,6 +13,7 @@ const browserDistFolder = resolve(serverDistFolder, '../browser');
 
 const app = express();
 const angularApp = new AngularNodeAppEngine();
+const renderTimeout = 30000; 
 
 /**
  * Example Express Rest API endpoints can be defined here.
